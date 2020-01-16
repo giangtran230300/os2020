@@ -1,0 +1,28 @@
+Report OS practical 03
+
+1.	Command:	ps -ax  
+	Output:
+5283 pts/0    Ss     0:00 bash
+ 5294 tty2     Sl+    0:44 /usr/lib/firefox/firefox -new-window
+ 5298 ?        I      0:00 [kworker/2:0-eve]
+ 5394 tty2     Sl+    0:01 /usr/lib/firefox/firefox -contentproc -childID 2 -isF
+ 5437 tty2     Sl+    0:40 /usr/lib/firefox/firefox -contentproc -childID 3 -isF
+ 5473 tty2     Sl+    0:00 /usr/lib/firefox/firefox -contentproc -childID 4 -isF
+ 5776 tty2     SNl+   0:13 /usr/bin/python3 /usr/bin/update-manager --no-update 
+ 5809 ?        I      0:00 [kworker/u16:1-e]
+ 5837 ?        D      0:00 [kworker/u16:2+e]
+ 5846 pts/0    R+     0:00 ps -ax
+
+2. 	Command:	gnome-calculator
+	Output : open calculator app
+
+3. 	Command:	ps -ax | grep Calculator
+	Output:		
+ 6306 pts/0    S+     0:00 grep --color=auto calculator
+
+4. 	Command:	kill -STOP 6306
+
+5. 	Command:	kill -CONT 6306
+
+6.	Command:	kill -KILL 6306
+

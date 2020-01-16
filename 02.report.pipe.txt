@@ -1,0 +1,34 @@
+Report practical 02 OS
+
+1.		Command:	ls > filelist | grep list
+		Output: 	filelist
+
+2. 		Command: 	wc -l /etc/passwd
+		Output:		41     
+
+3. 		Command: 	free
+		Output:
+             total        used        free      shared  buff/cache   available
+Mem:        3609240     1564740     1125536      342664      918964     1462428
+Swap:        450216        7692      442524
+
+4. 		Command: 	cat /proc/cpuinfo
+		Output: 		
+			processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i3-2348M CPU @ 2.30GHz
+stepping	: 7
+microcode	: 0x2f
+cpu MHz		: 851.650
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+
+
+5.		Command:		find . -type f -name "*.jpg" | wc -l 
+		Output: 		0

@@ -1,0 +1,75 @@
+Report practical 01 OS
+
+1. 	Command: 	echo hello world
+   	Output: 	hello world
+
+2. 	Command: 	passwd
+   	Output: 	
+		Changing password for giangtr.
+		(current) UNIX password: 
+
+3. 	Command: 	date
+   	Output: 	Thứ năm, 16 Tháng 1 năm 2020 10:05:30 +07
+
+
+4. 	Command: 	hostname
+   	Output: 	giangtr-Lenovo-B490
+
+5. 	Command: 	arch
+   	Output: 	x86_64
+
+6. 	Command: 	uname -a
+   	Output: 	
+		Linux giangtr-Lenovo-B490 5.0.0-23-generic #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+7. 	Command: 	sudo dmesg
+   	Output: 	
+		[    0.000000] microcode: microcode updated early to revision 0x2f, date = 2019-02-17
+[    0.000000] Linux version 5.0.0-23-generic (buildd@lgw01-amd64-030) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #24~18.04.1-Ubuntu SMP Mon Jul 29 16:12:28 UTC 2019 (Ubuntu 5.0.0-23.24~18.04.1-generic 5.0.15)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.0.0-23-generic root=UUID=5533526b-2992-46e1-8a30-b3420aae249b ro quiet splash vt.handoff=1
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Hygon HygonGenuine
+
+
+8. 	Command: 	uptime
+   	Output:  	 10:07:24 up 17 min,  1 user,  load average: 0,84, 0,83, 0,63
+
+
+9. 	Command: 	who am i
+	Output: 	 
+
+10. 	Command: 	whoami
+	Output:		giangtr
+
+11. 	Command: 	who
+	Output:		giangtr  :0           2020-01-16 11:51 (:0)
+
+
+12. 	Command: 	id
+	Output:		
+		uid=1000(giangtr) gid=1000(giangtr) groups=1000(giangtr),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+
+13. 	Command: 	last
+	Output: 	
+giangtr  :0           :0               Thu Jan 16 11:51   still logged in
+reboot   system boot  5.0.0-23-generic Thu Jan 16 11:50   still running
+giangtr  :0           :0               Thu Jan 16 23:57 - down   (-13:11)
+reboot   system boot  5.0.0-23-generic Thu Jan 16 23:55 - 10:45  (-13:09)
+
+wtmp begins Thu Jan 16 23:55:55 2020
+
+
+14. 	Command:	finger
+	Output:		
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+giangtr   giangtr   *:0             Jan 16 11:51 (:0)
+
+
+15. 	Command:	w
+	Output:		
+ 12:09:05 up 18 min,  1 user,  load average: 0,78, 0,77, 0,63
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+giangtr  :0       :0               11:51   ?xdm?   1:16   0.02s /usr/lib/gdm3/g
+
